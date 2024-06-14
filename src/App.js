@@ -64,7 +64,7 @@ return (
             </a>
           </div>
           <div className={styles.headerContent}>
-            <p>Hi, I am Shruti, interested in travelling, PHOTOGRAPHY, food and developing this website !</p>
+            <p>Hi, I am Shruti, interested in travelling, photography, food and developing this website !</p>
           </div>
         </div>
         <div className={styles.timeLineWrapper}>
