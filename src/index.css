@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "Roboto";
+}
+
+body {
+  background: rgb(22,27,34);
+  background-image: radial-gradient(rgb(98,39,92) 1.5px, transparent 0);
+  background-size: 40px 40px;
+  animation: moveBackground 1s linear infinite;
+  z-index: -1;
+}
+
+body::-webkit-scrollbar {width: 5px;height: 100%;}
+body::-webkit-scrollbar-thumb {background-color: rgb(180, 141, 189);}
+body::-webkit-scrollbar-track {background-color: rgb(144,16,104); margin-top: 20px;margin-bottom: 20px;}
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 -80px; /* Adjust the value based on the desired speed */
+  }
+}
