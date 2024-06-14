@@ -11,17 +11,9 @@ import jsIcon from './Assets/js.png'
 import reactIcon from './Assets/react.png'
 import codeIcon from './Assets/code.png'
 import azureIcon from './Assets/azure.png'
-//import flaskIcon from './Assets/flask.png'
-//import arduinoIcon from './Assets/arduino.png'
-//import yoloIcon from './Assets/yolo.png'
-//import expressIcon from './Assets/express.png'
-//import { useState, useRef, useEffect } from 'react'
-
 
 function App() {
-  //const [showPDF, setShowPDF] = useState(false);
-
-  return (
+return (
     
     <div className={styles.pageWrapper}>
       <div className={styles.pageInner}>
@@ -82,56 +74,26 @@ function App() {
             <div className={styles.projectsCard}>
               <h2>Portfolio</h2>
               <p>Talking about this portfolio that is just build using time, food, my typing skills, chatgpt skills, pills and what not!!! My first itne mehnat ki website! I used react, css, js. BS ABHI ITNA HI ATA HE. </p>
-              {/* <div className={styles.iconsWrapper}>
-                <img src={mongoDBIcon} />
-                <img src={pythonIcon} />
-                <img src={awsIcon} />
-              </div> */}
             </div>
             <div className={styles.projectsCard}>
               <h2>Quick Quiz</h2>
               <p>This quiz app was our first project of trimester 4, I used HTML, CSS, JS only. Making progress bar was Jaanlevaaa!! The app that was meant for marks only not for the actual quiz  ; ^</p>
-              {/* <div className={styles.iconsWrapper}>
-                <img src={reactIcon} />
-                <img src={nodeIcon} />
-                <img src={pythonIcon} />
-                <img src={awsIcon} />
-              </div> */}
             </div>
             <div className={styles.projectsCard}>
               <h2>Tic-Tac-Toe</h2>
               <p>Bachho wala game, the game whose maths was a little tricky to implement. DEEPAK sir told us the logic. Pata nhi the itna tough hota he tic tac toe, vese itna bhi nhi  ; *</p>
-              {/* <div className={styles.iconsWrapper}>
-                <img src={mongoDBIcon} />
-                <img src={pythonIcon} />
-                <img src={awsIcon} />
-              </div> */}
             </div>
             <div className={styles.projectsCard}>
               <h2>Image Editor</h2>
               <p>My first ever project of college's life, kuch smjh nhi aya tha. Although, I learned a lot in this journey. Used RGB values, matrix, and yes DSA!!!  </p>
-              {/* <div className={styles.iconsWrapper}>
-                <img src={mongoDBIcon} />
-                <img src={pythonIcon} />
-                <img src={awsIcon} />
-              </div> */}
             </div>
             <div className={styles.projectsCard}>
               <h2>Random Quote Generator</h2>
               <p>It was my first project, in which I made my first API call through fake API store. I build it overnight in thr main campus. Hehe, I know your question, Abhimanyu sir allowed us to stay there and gave us a pizza partyy yaayy!!!</p>
-              {/* <div className={styles.iconsWrapper}>
-                <img src={mysqlIcon} />
-                <img src={unityIcon} />
-              </div> */}
               </div>
             <div className={styles.projectsCard}>
               <h2>Vanilla Portfolio website</h2>
               <p>Not a completed one. I will complete this project soon.. I hope soon.. I was the portfolio of the person who doesn't exist in this world. I used this for the maintaining the symmetry of boxes  ; *</p>
-              {/* <div className={styles.iconsWrapper}>
-                <img src={mongoDBIcon} />
-                <img src={pythonIcon} />
-                <img src={awsIcon} />
-              </div> */}
             </div> 
           </div>
         </div>
@@ -170,12 +132,5 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
-// .techWrapper{margin-top: 40px;}
-// .techCardWrapper{display: flex;flex-wrap: wrap;column-gap: 20px;margin-top: 40px;row-gap: 20px;}
 // .techCard{width: 185px;height: 185px;background-color: rgb(91, 31, 73, 0.893);border-radius: 10px;padding: 10px;display: flex;justify-content: center;align-items: center;}
 // .techCard img {height: 80px;filter: grayscale(85%) invert(100%);}
