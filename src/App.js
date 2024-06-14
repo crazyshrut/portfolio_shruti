@@ -11,6 +11,8 @@ import jsIcon from './Assets/js.png'
 import reactIcon from './Assets/react.png'
 import codeIcon from './Assets/code.png'
 import azureIcon from './Assets/azure.png'
+import Typical from 'react-typical';
+
 
 function App() {
 return (
@@ -24,7 +26,22 @@ return (
           </div>
           <div className={styles.mainText}>
             <h2>Heya, I'm Shruti</h2>
-            <h1>Developer.</h1>
+            <h1>
+              <Typical
+                loop={Infinity}
+                wrapper="b"
+                steps={[
+                  'Developer.',
+                  1000,
+                  'Photographer.',
+                  1000,
+                  'Traveller.',
+                  1000,
+                  'Food Enthusiast.',
+                  1000,
+                    ]}
+                      />
+                </h1>
           </div>
           <div className={styles.links}>
             <a href='https://github.com/crazyshrut/'>
